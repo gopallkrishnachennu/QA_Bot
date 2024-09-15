@@ -1,0 +1,19 @@
+# config.yaml
+page:
+  title: "Question Answering with Transformers"
+  layout: "wide"
+
+models:
+  DistilBERT: 'distilbert-base-uncased-distilled-squad'
+  BERT: 'bert-large-uncased-whole-word-masking-finetuned-squad'
+  RoBERTa: 'deepset/roberta-base-squad2'
+
+sidebar:
+  confidence_threshold:
+    min: 0.0
+    max: 1.0
+    default: 0.5
+    step: 0.01
+
+developer: "Gopala Krishna Chennu"
+linked_in: "https://www.linkedin.com/in/gopallchennu/"
